@@ -1,0 +1,180 @@
+body{
+    margin:0px auto;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+nav ul li {
+    list-style-type:none;
+    float: left;
+    padding-right: 2.5em;/* (px,em,%),pt,cm */
+    color:#eff3c6;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    float: right;   
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    
+}
+section{
+    background-color: #4cbbb9;
+}
+.home{
+    background-color:#175555;
+    text-align: center;
+    font-size:48px;
+    color:#ffffff;
+    display: table;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Andika New Basic', sans-serif;
+    font-weight: thin;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.home .inner img{
+    border-radius: 100%;
+    width:250px;
+    height: auto;
+}
+.about{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/954/5/66/code-programmers-programming-doom-game-wallpaper-preview.jpg');
+    display: table;
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 70%;
+    float: left;
+    padding-top: 75px;
+    padding-left: 50px;
+    line-height: 50px;
+}
+.about .inner h1{
+    font-size: 42px;
+    color: white;
+}
+.about .inner p{
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    color: white;
+}
+
+.education {
+    background-image: url('https://d3uelt8k02tx43.cloudfront.net/wp-content/uploads/2018/03/bkasia186432_education-cover_1.jpg');
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-size:cover ;
+    
+}
+.hobbies{
+    background-image: url('https://www.newsinlevels.com/wp-content/uploads/2019/06/GettyImages-487764222-e1495825614959-800x453-300x150.jpg') ;
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-repeat: none;
+    background-size: cover;
+}
+.education .inner , .hobbies .inner {
+    padding-left: 50px;
+    background-color: rgba(0, 0,0,0.2);
+    
+}
+.education .inner h1 ,  .skills .inner h1, .contact .inner h1{
+    font-size: 42px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.education .inner div, .hobbies .inner div, .skills .inner div{
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 30%;
+    float: left;
+    text-align: center;
+
+}
+.hobbies .inner h1{
+    
+    font-size: 42px;
+}
+.hobbies .inner div p{
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.education .inner div img, .hobbies .inner div img{
+    width: 100px;
+    height: auto;
+}
+.skills, .contact{
+   
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+
+.skills{
+    background-image: url('https://www.appdynamics.com/wp-content/uploads/2017/01/8-ways-to-hone-your-programming-skills-open-graph-1024x535.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skills .inner, .contact .inner{
+    background-color: rgba(0, 0,0,0.6);
+    padding: 50px;
+    color: seashell;
+}
+.skills .inner div ul li {
+    list-style-type: none;
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact .inner{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    nav {
+        width: fit-content;
+    }
+    .home .inner img {
+        padding-top:85px;
+    }
+    .about .inner p{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .education .inner div, .hobbies .inner div{
+        width: 85%;
+        padding: 10px;
+    }
+    .skills .inner div {
+        width: 90%;
+        padding: 10px;
+        
+    }
+}
